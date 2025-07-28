@@ -3813,7 +3813,7 @@ h6,
 }
 .navbar-area .navbar-collapse .navbar-nav li {
   display: inline-block;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 60px;
   text-transform: capitalize;
 }
@@ -4105,6 +4105,25 @@ h6,
 .nav-right-part-mobile {
   display: none;
 }
+.paypal-btn{
+  height:40px;
+   width:40px;
+   background-color: #fff;
+   
+   box-shadow: #0d0d0d;
+}
+.theme-btn{
+  color: #fff;
+   border: #000000 2px solid;
+}
+
+.theme-btn:hover {
+  background:none;
+  color: #fff;
+ border: #ce1313 2px solid ;
+ 
+}
+
 
 /* Menu Sidebar */
 .menu-sidebar {
