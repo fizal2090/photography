@@ -410,6 +410,11 @@
 
       </div>
 
+       <!-- WhatsApp Float Button -->
+        <a href="https://wa.me/9962945293" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
             <!-- all plugins here -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -427,4 +432,15 @@
     <!-- main js  -->
     <script src="js/main.js"></script>
 </body>
+
+<script>
+        // WhatsApp button scroll functionality
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 200) {
+                $('.whatsapp-float').addClass('show');
+            } else {
+                $('.whatsapp-float').removeClass('show');
+            }
+        });
+    </script>
 </html>

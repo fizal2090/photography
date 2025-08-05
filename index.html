@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GrosMorneGraphics</title>
+    <title>Gros Morne Graphics</title>
     <link rel=icon href="img/GrosMorneGraphics.png" sizes="20x20" type="image/png">
 
     <!-- Stylesheet -->
@@ -583,6 +583,13 @@
     </div>
     <!--End pagewrapper-->
 
+     <!-- WhatsApp Float Button -->
+        <a href="https://wa.me/9962945293" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+
+
     <!-- all plugins here -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -600,5 +607,17 @@
     <!-- main js  -->
     <script src="js/main.js"></script>
 </body>
+
+
+<script>
+        // WhatsApp button scroll functionality
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 200) {
+                $('.whatsapp-float').addClass('show');
+            } else {
+                $('.whatsapp-float').removeClass('show');
+            }
+        });
+    </script>
 
 </html>
