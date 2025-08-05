@@ -4109,15 +4109,17 @@ h6,
   height:40px;
    width:40px;
    background-color: #fff;
-   
    box-shadow: #0d0d0d;
 }
-.theme-btn{
+.theme-btn1{
   color: #fff;
    border: #000000 2px solid;
+   padding: 9px 30px;
+   border-radius: 6px;
+ 
 }
 
-.theme-btn:hover {
+.theme-btn1:hover {
   background:none;
   color: #fff;
  border: #ce1313 2px solid ;
