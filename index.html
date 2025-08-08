@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GrosMorneGraphics</title>
+    <title>Gros Morne Graphics</title>
     <link rel=icon href="img/GrosMorneGraphics.png" sizes="20x20" type="image/png">
 
     <!-- Stylesheet -->
@@ -515,7 +515,7 @@
                             <div class="footer-logo mb-25">
                                 <a href="index.html"><img src="img/GrosMorneGraphics.png" alt="Logo"></a>
                             </div>
-                            <p>Sit amet consectetur adipiscing elit, sed do eiusmod temp didunt ut labore dolore magna aliqua spsum suspendis facilisis.</p>
+                            <p>We capture your most precious moments with creativity and passion, turning them into timeless memories you can cherish forever.</p>
                             <div class="social-style-two mt-15">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -548,25 +548,30 @@
                             <h4 class="widget-title">Support</h4>
                             <p>Need Any Support Us! Or Work Together?</p>
                             <ul>
-                                <li><i class="far fa-map-marker-alt"></i> No 5 Ramakkal kalyanalayam saneshwara Temple Street subhanapalya M S Nagar Post 560033</li>
-                                <li><i class="far fa-envelope"></i> <a href="mailto:support@gmail.com">support@gmail.com</a></li>
-                                <li><i class="far fa-phone"></i> <a href="calto:+000123456789">+000 123 (456) 789</a></li>
+                                <li><i class="far fa-map-marker-alt"></i> No.5 Ramakkal kalyanalayam saneshwara Temple Street,subhanapalya M S Nagar Post 560033.</li>
+                                <li><i class="far fa-envelope"></i> <a href="mailto:grosmornegraphics@gmail.com" style="font-size: 16px;">grosmornegraphics@gmail.com</a></li>
+                                <li><i class="far fa-phone"></i> <a href="calto:99629 45293">99629 45293</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="footer-bottom mt-15 pt-25 pb-10">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <div class="copyright-text text-center text-lg-start">
-                                <p><a href="index.html">GrosMorneGraphics</a> © Copyright 2025, Developed by <a href="https://www.levlox.tech/">LEVLOX</a></p>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-space-between align-items-center flex-wrap">
+                            <div class="col-lg-6 copyright-text text-lg-start">
+                                <p><a href="index.html">Gros Morne Graphics</a></p>                   
                             </div>
+                            <div class="col-lg-6 copyright-text text-lg-end">
+                                <p>© Copyright 2025, Developed by <a href="https://www.levlox.tech/">LEVLOX</a></p>
+
+                            </div>
+
                         </div>
-                        <div class="col-lg-6">
+                        <!-- <div class="col-lg-6">
                             <div class="payment-method-image mb-15 text-center text-lg-end">
                                 <a href="#"><img src="img/payment-method.webp" alt="Payment Method"></a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <!-- back to top area start -->
@@ -582,6 +587,13 @@
 
     </div>
     <!--End pagewrapper-->
+
+     <!-- WhatsApp Float Button -->
+        <a href="https://wa.me/9962945293" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+
 
     <!-- all plugins here -->
     <script src="js/jquery.min.js"></script>
@@ -600,5 +612,17 @@
     <!-- main js  -->
     <script src="js/main.js"></script>
 </body>
+
+
+<script>
+        // WhatsApp button scroll functionality
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 200) {
+                $('.whatsapp-float').addClass('show');
+            } else {
+                $('.whatsapp-float').removeClass('show');
+            }
+        });
+    </script>
 
 </html>
