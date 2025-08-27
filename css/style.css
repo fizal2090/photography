@@ -353,6 +353,11 @@ input[type="radio"] {
 
 .section-title h2 {
   text-transform: capitalize;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.about-page-content p {
+  margin-top: 60px;
 }
 @media only screen and (max-width: 767px) {
   .section-title h2 {
@@ -5342,7 +5347,7 @@ h6,
 /*******************  08. Hero Area ********************/
 /*******************************************************/
 .hero-content h1 {
-  font-size: 65px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
 @media only screen and (max-width: 1199px) {
@@ -10009,7 +10014,71 @@ h6,
 /*******************************************************/
 /******************  22. Offers Area *******************/
 /*******************************************************/
-@media only screen and (min-width: 1600px) {
+.card-3 {
+  box-shadow: 0px 5px 10px 0 rgba(10, 10, 10, .05);
+  padding: 25px 20px;
+  transition: box-shadow 0.3s;
+}
+.card-3:hover {
+  box-shadow: 0px 10px 20px 0 rgba(10, 10, 10, .15);
+  color: #f8f8fb;
+  background-color: #f8f8fb;
+}
+.card-3:hover .h6-xs,
+.card-3 .h6-xs:hover {
+  color: #dd1d26;
+}
+
+.h6-xs {
+  margin-top: 20px;
+  transition: color 0.3s;
+}
+
+.container-card{
+  margin-top: 50px;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.card-youtube {
+  width: 250px;
+  height: auto;
+  background-color: transparent;
+  box-shadow: 0px 3px 5px -1px rgba(204, 174, 204, 1);
+  padding-bottom: 4px;
+  margin-bottom: 35px;
+
+}
+
+
+.grid-body-card {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  margin-top: 18px;
+}
+.title-card {
+    font-size: 15px;
+    margin-left: 15px;
+}
+.portfolio-link {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+    background-color: #F48126;
+    border-radius: 100%;
+    transition: all 450ms ease-in-out;
+}
+.flaticon-right-arrow {
+    color: #fff;
+}
+
+
+
+  @media only screen and (min-width: 1600px) {
   .offer-banners {
     padding-left: 55px;
     padding-right: 55px;
