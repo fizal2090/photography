@@ -10969,11 +10969,7 @@ h6,
 }
 
 .footer-area .widget_nav_menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  
 }
 .footer-area .widget_nav_menu ul li {
   width: 50%;
